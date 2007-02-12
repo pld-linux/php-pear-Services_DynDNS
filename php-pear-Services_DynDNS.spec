@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - provides access to the DynDNS web service
-Summary(pl):	%{_pearname} - dostêp do us³ugi WWW DynDNS
+Summary(pl.UTF-8):   %{_pearname} - dostÄ™p do usÅ‚ugi WWW DynDNS
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
 Release:	1.1
@@ -29,7 +29,7 @@ API.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Services_DynDNS dostarcza zorientowanego obiektowo interfejsu do API
 REST DynDNS.
 
