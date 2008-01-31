@@ -3,12 +3,11 @@
 %define		_subclass	DynDNS
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - provides access to the DynDNS web service
 Summary(pl.UTF-8):	%{_pearname} - dostęp do usługi WWW DynDNS
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	1.1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
