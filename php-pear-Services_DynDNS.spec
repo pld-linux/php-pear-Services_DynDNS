@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Services_DynDNS
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - provides access to the DynDNS web service
 Summary(pl.UTF-8):	%{_pearname} - dostęp do usługi WWW DynDNS
 Name:		php-pear-%{_pearname}
